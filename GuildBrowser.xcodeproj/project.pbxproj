@@ -582,6 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -603,6 +604,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -612,11 +614,12 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -624,11 +627,12 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
