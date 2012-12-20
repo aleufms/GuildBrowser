@@ -17,6 +17,8 @@
 -(void)configureCellWithCharacter:(Character *)selectedCharacter
 {
     self.character = selectedCharacter;
+    self.accessibilityLabel = _character.name;
+    self.isAccessibilityElement = YES;
     
     _name.text = _character.name;
     _levelRace.text = [NSString stringWithFormat:@"%@ %@",_character.level,_character.race];

@@ -18,6 +18,16 @@
 		A1BB2D6616812E6000E74E59 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BB2D6516812E6000E74E59 /* CharacterTests.m */; };
 		A1BB2D681681306E00E74E59 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
 		A1BB2D691681311B00E74E59 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		A1BB2D741681EA0200E74E59 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BB2D731681EA0200E74E59 /* libOCMock.a */; };
+		A1E55CEE168215D4008888F1 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1E55CEF168215D4008888F1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1E55CF0168215D4008888F1 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC915E9A8DA00B3713E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1E55CF1168215D4008888F1 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCB15E9A8DA00B3713E /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1E55CF2168215D4008888F1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1E55CF3168215D4008888F1 /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
+		A1E55CF4168218D7008888F1 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		A1E55CF816822C8D008888F1 /* TestSemaphor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55CF716822C8D008888F1 /* TestSemaphor.m */; };
+		A1E55CFB16822D1D008888F1 /* GuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55CFA16822D1D008888F1 /* GuildTests.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -101,6 +111,17 @@
 		A1BB2D6116812E0800E74E59 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		A1BB2D6416812E6000E74E59 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		A1BB2D6516812E6000E74E59 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		A1BB2D731681EA0200E74E59 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
+		A1BB2D761681EA1700E74E59 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		A1BB2D771681EA1700E74E59 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		A1BB2D781681EA1700E74E59 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		A1BB2D791681EA1700E74E59 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		A1BB2D7A1681EA1700E74E59 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		A1BB2D7B1681EA1700E74E59 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		A1E55CF616822C8D008888F1 /* TestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSemaphor.h; sourceTree = "<group>"; };
+		A1E55CF716822C8D008888F1 /* TestSemaphor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSemaphor.m; sourceTree = "<group>"; };
+		A1E55CF916822D1D008888F1 /* GuildTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuildTests.h; sourceTree = "<group>"; };
+		A1E55CFA16822D1D008888F1 /* GuildTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuildTests.m; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -191,6 +212,7 @@
 				A1BB2D49168127DB00E74E59 /* SenTestingKit.framework in Frameworks */,
 				A1BB2D4A168127DB00E74E59 /* UIKit.framework in Frameworks */,
 				A1BB2D4B168127DB00E74E59 /* Foundation.framework in Frameworks */,
+				A1BB2D741681EA0200E74E59 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,12 +242,16 @@
 		A1BB2D4C168127DB00E74E59 /* GuildBrowserLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				A1E55CF616822C8D008888F1 /* TestSemaphor.h */,
+				A1E55CF716822C8D008888F1 /* TestSemaphor.m */,
 				A1BB2D5F16812E0800E74E59 /* testdata */,
 				A1BB2D4D168127DB00E74E59 /* Supporting Files */,
 				A1BB2D591681291000E74E59 /* WoWUtilsTests.h */,
 				A1BB2D5A1681291000E74E59 /* WoWUtilsTests.m */,
 				A1BB2D6416812E6000E74E59 /* CharacterTests.h */,
 				A1BB2D6516812E6000E74E59 /* CharacterTests.m */,
+				A1E55CF916822D1D008888F1 /* GuildTests.h */,
+				A1E55CFA16822D1D008888F1 /* GuildTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -248,6 +274,20 @@
 			);
 			name = testdata;
 			path = ../GuildBrowser/testdata;
+			sourceTree = "<group>";
+		};
+		A1BB2D751681EA1700E74E59 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				A1BB2D761681EA1700E74E59 /* NSNotificationCenter+OCMAdditions.h */,
+				A1BB2D771681EA1700E74E59 /* OCMArg.h */,
+				A1BB2D781681EA1700E74E59 /* OCMConstraint.h */,
+				A1BB2D791681EA1700E74E59 /* OCMock.h */,
+				A1BB2D7A1681EA1700E74E59 /* OCMockObject.h */,
+				A1BB2D7B1681EA1700E74E59 /* OCMockRecorder.h */,
+			);
+			name = OCMock;
+			path = OCMock/OCMock;
 			sourceTree = "<group>";
 		};
 		CB9FDC3015E9872D00B3713E = {
@@ -276,6 +316,8 @@
 		CB9FDC3E15E9872D00B3713E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1BB2D731681EA0200E74E59 /* libOCMock.a */,
+				A1BB2D751681EA1700E74E59 /* OCMock */,
 				CB9FDC3F15E9872D00B3713E /* UIKit.framework */,
 				CB9FDC4115E9872D00B3713E /* Foundation.framework */,
 				CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */,
@@ -604,11 +646,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E55CF4168218D7008888F1 /* Guild.m in Sources */,
+				A1E55CEE168215D4008888F1 /* AFHTTPClient.m in Sources */,
+				A1E55CEF168215D4008888F1 /* AFHTTPRequestOperation.m in Sources */,
+				A1E55CF0168215D4008888F1 /* AFJSONRequestOperation.m in Sources */,
+				A1E55CF1168215D4008888F1 /* AFJSONUtilities.m in Sources */,
+				A1E55CF2168215D4008888F1 /* AFURLConnectionOperation.m in Sources */,
+				A1E55CF3168215D4008888F1 /* WoWApiClient.m in Sources */,
 				A1BB2D681681306E00E74E59 /* Character.m in Sources */,
 				A1BB2D5C16812B4200E74E59 /* WoWUtils.m in Sources */,
 				A1BB2D5B1681291000E74E59 /* WoWUtilsTests.m in Sources */,
 				A1BB2D6616812E6000E74E59 /* CharacterTests.m in Sources */,
 				A1BB2D691681311B00E74E59 /* Item.m in Sources */,
+				A1E55CF816822C8D008888F1 /* TestSemaphor.m in Sources */,
+				A1E55CFB16822D1D008888F1 /* GuildTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,8 +762,21 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -728,7 +792,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -855,6 +932,7 @@
 				A1BB2D58168127DB00E74E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
